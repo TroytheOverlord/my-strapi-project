@@ -16,5 +16,13 @@ module.exports = {
         auth: false,
       },
     },
+    {
+      method: 'POST',
+      path: '/trivia-questions',
+      handler: 'trivia-question.create',
+      config: {
+        auth: false,
+      },
+    },
   ],
 };
